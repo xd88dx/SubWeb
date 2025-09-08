@@ -6,7 +6,6 @@
 out
 
 # VS Code
-dist/
 .vscode-test
 
 # Cloudflare
