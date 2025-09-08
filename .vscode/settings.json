@@ -1,0 +1,30 @@
+{
+  "eslint.run": "onSave",
+  "eslint.useFlatConfig": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "explicit",
+    "source.fixAll.stylelint": "explicit"
+  },
+  "eslint.validate": [
+    "javascript",
+    "vue",
+    "vue-html",
+    "typescript",
+    "typescriptreact",
+    "html",
+    "css",
+    "scss",
+    "less",
+    "json",
+    "jsonc",
+    "json5",
+    "markdown"
+  ],
+  "stylelint.validate": ["css", "scss", "sass", "less", "postcss", "vue", "html"],
+  "explorer.fileNesting.enabled": true,
+  "explorer.fileNesting.expand": false,
+  "explorer.fileNesting.patterns": {
+    ".gitignore": ".gitattributes",
+    ".editorconfig": "eslint.config.mjs, .prettierrc, prettier.config.mjs, .prettierignore, .stylelintrc.json, stylelint.config.mjs, .stylelintignore"
+  }
+}

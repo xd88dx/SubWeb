@@ -1,0 +1,16 @@
+dist
+src/static
+node_modules
+src/pages.json
+src/uni_modules
+src/manifest.json
+
+*.svg
+*.d.ts
+*.min.js
+build/*.js
+
+logs
+*.log
+
+.husky
