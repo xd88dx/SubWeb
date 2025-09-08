@@ -1,0 +1,28 @@
+root = true
+
+[*]
+charset = utf-8
+indent_size = 2
+indent_style = space
+end_of_line = lf
+max_line_length = 150
+insert_final_newline = true
+trim_trailing_whitespace = true
+
+[*.md]
+end_of_line = crlf
+
+[*.txt]
+end_of_line = crlf
+
+[*.py]
+indent_size = unset
+
+[*.ui]
+indent_size = unset
+
+[*.xml]
+indent_size = unset
+
+[*.java]
+indent_size = unset
