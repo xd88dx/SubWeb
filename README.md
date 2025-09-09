@@ -8,7 +8,7 @@
 npx wrangler deploy --assets=./dist --compatibility-date 2025-09-01
 ```
 
-> 一劳永逸添加`wrangler.jsonc`配置文件
+> 一劳永逸可以添加`wrangler.jsonc`配置文件
 
 ```json
 {
